@@ -1,0 +1,66 @@
+.App {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.navigation {
+  border: 1px dotted black;
+  background-color: pink;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.navigation ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.navigation ul li{
+  cursor: pointer;
+  color: white;
+}
+.sections {
+  margin-top: 50px;
+}
+.section {
+  height: 100vh;
+  border: 1px dotted black;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.red {
+  background-color: red;
+}
+.pink {
+  background-color: pink;
+}
+.blue {
+  background-color: blue;
+}
+
+/*OTP*/
+
+.otp {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+
+input {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+  border-radius: 5px;
+  font-size: 70px;
+  text-align: center;
+}
